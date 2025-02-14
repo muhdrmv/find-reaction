@@ -1,0 +1,1118 @@
+[
+  {
+    "xMin": 1738655400000,
+    "xMax": 1738656600000,
+    "yMin": 2809.82356,
+    "yMax": 2809.82356,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738655400000,
+    "xMax": 1738656600000,
+    "yMin": 2808.71812,
+    "yMax": 2808.71812,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738656900000,
+    "xMax": 1738657200000,
+    "yMin": 2813.6063799999997,
+    "yMax": 2813.6063799999997,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738656900000,
+    "xMax": 1738657200000,
+    "yMin": 2812.16326,
+    "yMax": 2812.16326,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738657200000,
+    "xMax": 1738662000000,
+    "yMin": 2816.18101,
+    "yMax": 2816.18101,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738657200000,
+    "xMax": 1738662000000,
+    "yMin": 2815.33177,
+    "yMax": 2815.33177,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738662600000,
+    "xMax": 1738673400000,
+    "yMin": 2815.68455,
+    "yMax": 2815.68455,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738662600000,
+    "xMax": 1738673400000,
+    "yMin": 2814.0003500000003,
+    "yMax": 2814.0003500000003,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738673700000,
+    "xMax": 1738674000000,
+    "yMin": 2816.7577499999998,
+    "yMax": 2816.7577499999998,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738673700000,
+    "xMax": 1738674000000,
+    "yMin": 2815.0567499999997,
+    "yMax": 2815.0567499999997,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738675800000,
+    "xMax": 1738679100000,
+    "yMin": 2827.48987,
+    "yMax": 2827.48987,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738675800000,
+    "xMax": 1738679100000,
+    "yMin": 2824.83799,
+    "yMax": 2824.83799,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738679400000,
+    "xMax": 1738680000000,
+    "yMin": 2833.50513,
+    "yMax": 2833.50513,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738679400000,
+    "xMax": 1738680000000,
+    "yMin": 2831.53701,
+    "yMax": 2831.53701,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738680300000,
+    "xMax": 1738680600000,
+    "yMin": 2838.0364,
+    "yMax": 2838.0364,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738680300000,
+    "xMax": 1738680600000,
+    "yMin": 2837.1628,
+    "yMax": 2837.1628,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738680600000,
+    "xMax": 1738681200000,
+    "yMin": 2839.95141,
+    "yMax": 2839.95141,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738680600000,
+    "xMax": 1738681200000,
+    "yMin": 2839.5725700000003,
+    "yMax": 2839.5725700000003,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738681800000,
+    "xMax": 1738683000000,
+    "yMin": 2840.50761,
+    "yMax": 2840.50761,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738681800000,
+    "xMax": 1738683000000,
+    "yMin": 2839.43997,
+    "yMax": 2839.43997,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738683000000,
+    "xMax": 1738715400000,
+    "yMin": 2842.21241,
+    "yMax": 2842.21241,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738683000000,
+    "xMax": 1738715400000,
+    "yMin": 2841.32957,
+    "yMax": 2841.32957,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738715700000,
+    "xMax": 1738717200000,
+    "yMin": 2838.64993,
+    "yMax": 2838.64993,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738715700000,
+    "xMax": 1738717200000,
+    "yMin": 2836.02661,
+    "yMax": 2836.02661,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738717200000,
+    "xMax": 1738721100000,
+    "yMin": 2845.30391,
+    "yMax": 2845.30391,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738717200000,
+    "xMax": 1738721100000,
+    "yMin": 2844.29507,
+    "yMax": 2844.29507,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738721400000,
+    "xMax": 1738725600000,
+    "yMin": 2845.1804700000002,
+    "yMax": 2845.1804700000002,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738721400000,
+    "xMax": 1738725600000,
+    "yMin": 2842.81419,
+    "yMax": 2842.81419,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738726200000,
+    "xMax": 1738728600000,
+    "yMin": 2850.42592,
+    "yMax": 2850.42592,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738726200000,
+    "xMax": 1738728600000,
+    "yMin": 2849.32384,
+    "yMax": 2849.32384,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738728600000,
+    "xMax": 1738730400000,
+    "yMin": 2854.19655,
+    "yMax": 2854.19655,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738728600000,
+    "xMax": 1738730400000,
+    "yMin": 2853.18435,
+    "yMax": 2853.18435,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738730400000,
+    "xMax": 1738734000000,
+    "yMin": 2855.30394,
+    "yMax": 2855.30394,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738730400000,
+    "xMax": 1738734000000,
+    "yMin": 2854.51938,
+    "yMax": 2854.51938,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738734300000,
+    "xMax": 1738734600000,
+    "yMin": 2856.25148,
+    "yMax": 2856.25148,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738734300000,
+    "xMax": 1738734600000,
+    "yMin": 2855.13596,
+    "yMax": 2855.13596,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738734600000,
+    "xMax": 1738736400000,
+    "yMin": 2859.04584,
+    "yMax": 2859.04584,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738734600000,
+    "xMax": 1738736400000,
+    "yMin": 2858.60568,
+    "yMax": 2858.60568,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738736700000,
+    "xMax": 1738742100000,
+    "yMin": 2859.04057,
+    "yMax": 2859.04057,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738736700000,
+    "xMax": 1738742100000,
+    "yMin": 2858.26189,
+    "yMax": 2858.26189,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738742400000,
+    "xMax": 1738743300000,
+    "yMin": 2859.01763,
+    "yMax": 2859.01763,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738742400000,
+    "xMax": 1738743300000,
+    "yMin": 2857.25951,
+    "yMax": 2857.25951,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738743600000,
+    "xMax": 1738743900000,
+    "yMin": 2864.77876,
+    "yMax": 2864.77876,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738743600000,
+    "xMax": 1738743900000,
+    "yMin": 2864.32852,
+    "yMax": 2864.32852,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738743900000,
+    "xMax": 1738744800000,
+    "yMin": 2865.5811400000002,
+    "yMax": 2865.5811400000002,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738743900000,
+    "xMax": 1738744800000,
+    "yMin": 2865.28378,
+    "yMax": 2865.28378,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738745100000,
+    "xMax": 1738747200000,
+    "yMin": 2866.65826,
+    "yMax": 2866.65826,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738745100000,
+    "xMax": 1738747200000,
+    "yMin": 2865.83002,
+    "yMax": 2865.83002,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738747200000,
+    "xMax": 1738748400000,
+    "yMin": 2867.40545,
+    "yMax": 2867.40545,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738747200000,
+    "xMax": 1738748400000,
+    "yMin": 2866.56965,
+    "yMax": 2866.56965,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738748400000,
+    "xMax": 1738750800000,
+    "yMin": 2868.08693,
+    "yMax": 2868.08693,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738748400000,
+    "xMax": 1738750800000,
+    "yMin": 2866.97561,
+    "yMax": 2866.97561,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738751400000,
+    "xMax": 1738769100000,
+    "yMin": 2872.2815100000003,
+    "yMax": 2872.2815100000003,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738751400000,
+    "xMax": 1738769100000,
+    "yMin": 2870.9702700000003,
+    "yMax": 2870.9702700000003,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738769100000,
+    "xMax": 1738770000000,
+    "yMin": 2865.89441,
+    "yMax": 2865.89441,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738769100000,
+    "xMax": 1738770000000,
+    "yMin": 2862.74357,
+    "yMax": 2862.74357,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738770600000,
+    "xMax": 1738941300000,
+    "yMin": 2877.14537,
+    "yMax": 2877.14537,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738770600000,
+    "xMax": 1738941300000,
+    "yMin": 2875.71149,
+    "yMax": 2875.71149,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738942200000,
+    "xMax": 1738942500000,
+    "yMin": 2854.07052,
+    "yMax": 2854.07052,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738942200000,
+    "xMax": 1738942500000,
+    "yMin": 2845.35804,
+    "yMax": 2845.35804,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738942800000,
+    "xMax": 1738943100000,
+    "yMin": 2883.98402,
+    "yMax": 2883.98402,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738942800000,
+    "xMax": 1738943100000,
+    "yMin": 2883.37754,
+    "yMax": 2883.37754,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738655400000,
+    "xMax": 1738656000000,
+    "yMin": 2856.9955,
+    "yMax": 2856.9955,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738655400000,
+    "xMax": 1738656000000,
+    "yMin": 2868.7135,
+    "yMax": 2868.7135,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738656300000,
+    "xMax": 1738656600000,
+    "yMin": 2812.8525299999997,
+    "yMax": 2812.8525299999997,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738656300000,
+    "xMax": 1738656600000,
+    "yMin": 2812.44681,
+    "yMax": 2812.44681,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738656900000,
+    "xMax": 1738658100000,
+    "yMin": 2814.03346,
+    "yMax": 2814.03346,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738656900000,
+    "xMax": 1738658100000,
+    "yMin": 2812.60042,
+    "yMax": 2812.60042,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738658400000,
+    "xMax": 1738658700000,
+    "yMin": 2814.76761,
+    "yMax": 2814.76761,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738658400000,
+    "xMax": 1738658700000,
+    "yMin": 2814.53997,
+    "yMax": 2814.53997,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738659000000,
+    "xMax": 1738665300000,
+    "yMin": 2815.91939,
+    "yMax": 2815.91939,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738659000000,
+    "xMax": 1738665300000,
+    "yMin": 2814.29903,
+    "yMax": 2814.29903,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738665600000,
+    "xMax": 1738666200000,
+    "yMin": 2813.90753,
+    "yMax": 2813.90753,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738665600000,
+    "xMax": 1738666200000,
+    "yMin": 2813.50181,
+    "yMax": 2813.50181,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738666500000,
+    "xMax": 1738667400000,
+    "yMin": 2814.38803,
+    "yMax": 2814.38803,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738666500000,
+    "xMax": 1738667400000,
+    "yMin": 2813.94031,
+    "yMax": 2813.94031,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738668600000,
+    "xMax": 1738669500000,
+    "yMin": 2815.06634,
+    "yMax": 2815.06634,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738668600000,
+    "xMax": 1738669500000,
+    "yMin": 2814.58418,
+    "yMax": 2814.58418,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738670100000,
+    "xMax": 1738670400000,
+    "yMin": 2815.14097,
+    "yMax": 2815.14097,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738670100000,
+    "xMax": 1738670400000,
+    "yMin": 2814.83269,
+    "yMax": 2814.83269,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738672200000,
+    "xMax": 1738672800000,
+    "yMin": 2817.12908,
+    "yMax": 2817.12908,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738672200000,
+    "xMax": 1738672800000,
+    "yMin": 2816.1311600000004,
+    "yMax": 2816.1311600000004,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738675500000,
+    "xMax": 1738677000000,
+    "yMin": 2826.21061,
+    "yMax": 2826.21061,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738675500000,
+    "xMax": 1738677000000,
+    "yMin": 2823.21097,
+    "yMax": 2823.21097,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738677300000,
+    "xMax": 1738677600000,
+    "yMin": 2831.64172,
+    "yMax": 2831.64172,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738677300000,
+    "xMax": 1738677600000,
+    "yMin": 2831.4804400000003,
+    "yMax": 2831.4804400000003,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738679100000,
+    "xMax": 1738684800000,
+    "yMin": 2836.16219,
+    "yMax": 2836.16219,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738679100000,
+    "xMax": 1738684800000,
+    "yMin": 2833.63463,
+    "yMax": 2833.63463,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738685400000,
+    "xMax": 1738854300000,
+    "yMin": 2852.0731100000003,
+    "yMax": 2852.0731100000003,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738685400000,
+    "xMax": 1738854300000,
+    "yMin": 2843.8234700000003,
+    "yMax": 2843.8234700000003,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738856400000,
+    "xMax": 1738861200000,
+    "yMin": 2843.66763,
+    "yMax": 2843.66763,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738856400000,
+    "xMax": 1738861200000,
+    "yMin": 2840.6495099999997,
+    "yMax": 2840.6495099999997,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738862100000,
+    "xMax": 1738863300000,
+    "yMin": 2849.50583,
+    "yMax": 2849.50583,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738862100000,
+    "xMax": 1738863300000,
+    "yMin": 2848.99091,
+    "yMax": 2848.99091,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738864800000,
+    "xMax": 1738865400000,
+    "yMin": 2850.47385,
+    "yMax": 2850.47385,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738864800000,
+    "xMax": 1738865400000,
+    "yMin": 2849.85645,
+    "yMax": 2849.85645,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738867500000,
+    "xMax": 1738868400000,
+    "yMin": 2852.19871,
+    "yMax": 2852.19871,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738867500000,
+    "xMax": 1738868400000,
+    "yMin": 2851.79467,
+    "yMax": 2851.79467,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738868700000,
+    "xMax": 1738870500000,
+    "yMin": 2852.12498,
+    "yMax": 2852.12498,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738868700000,
+    "xMax": 1738870500000,
+    "yMin": 2851.97546,
+    "yMax": 2851.97546,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738871400000,
+    "xMax": 1738935000000,
+    "yMin": 2858.34421,
+    "yMax": 2858.34421,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738871400000,
+    "xMax": 1738935000000,
+    "yMin": 2854.95817,
+    "yMax": 2854.95817,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738935300000,
+    "xMax": 1738936200000,
+    "yMin": 2859.06728,
+    "yMax": 2859.06728,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738935300000,
+    "xMax": 1738936200000,
+    "yMin": 2856.3725600000002,
+    "yMax": 2856.3725600000002,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738936200000,
+    "xMax": 1738936800000,
+    "yMin": 2861.98688,
+    "yMax": 2861.98688,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738936200000,
+    "xMax": 1738936800000,
+    "yMin": 2861.34176,
+    "yMax": 2861.34176,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738937100000,
+    "xMax": 1738948800000,
+    "yMin": 2869.60179,
+    "yMax": 2869.60179,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738937100000,
+    "xMax": 1738948800000,
+    "yMin": 2864.92383,
+    "yMax": 2864.92383,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738948800000,
+    "xMax": 1738949400000,
+    "yMin": 2857.31943,
+    "yMax": 2857.31943,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738948800000,
+    "xMax": 1738949400000,
+    "yMin": 2856.83811,
+    "yMax": 2856.83811,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738951200000,
+    "xMax": 1738956600000,
+    "yMin": 2859.5063099999998,
+    "yMax": 2859.5063099999998,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738951200000,
+    "xMax": 1738956600000,
+    "yMin": 2857.9598699999997,
+    "yMax": 2857.9598699999997,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738957200000,
+    "xMax": 1738958400000,
+    "yMin": 2860.82707,
+    "yMax": 2860.82707,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738957200000,
+    "xMax": 1738958400000,
+    "yMin": 2860.34239,
+    "yMax": 2860.34239,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738958400000,
+    "xMax": 1738959900000,
+    "yMin": 2861.33266,
+    "yMax": 2861.33266,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738958400000,
+    "xMax": 1738959900000,
+    "yMin": 2860.63882,
+    "yMax": 2860.63882,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738960200000,
+    "xMax": 1738960800000,
+    "yMin": 2860.36962,
+    "yMax": 2860.36962,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738960200000,
+    "xMax": 1738960800000,
+    "yMin": 2860.0487399999997,
+    "yMax": 2860.0487399999997,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738962300000,
+    "xMax": 1738964100000,
+    "yMin": 2861.34543,
+    "yMax": 2861.34543,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738962300000,
+    "xMax": 1738964100000,
+    "yMin": 2860.78011,
+    "yMax": 2860.78011,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738964400000,
+    "xMax": 1738965300000,
+    "yMin": 2861.5297499999997,
+    "yMax": 2861.5297499999997,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738964400000,
+    "xMax": 1738965300000,
+    "yMin": 2861.34075,
+    "yMax": 2861.34075,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738965000000,
+    "xMax": 1738965300000,
+    "yMin": 2861.3227199999997,
+    "yMax": 2861.3227199999997,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738965000000,
+    "xMax": 1738965300000,
+    "yMin": 2861.07744,
+    "yMax": 2861.07744,
+    "borderColor": "red",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  }
+]
