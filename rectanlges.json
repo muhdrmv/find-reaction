@@ -5,16 +5,7 @@
     "xMax": 1738656600000,
     "yMin": 2810.325,
     "yMax": 2813.89,
-    "backgroundColor": "rgba(213, 237, 14, 0.35)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738656900000,
-    "xMax": 1738657200000,
-    "yMin": 2814.25,
-    "yMax": 2818.915,
-    "backgroundColor": "rgba(232, 208, 4, 0.38)",
+    "backgroundColor": "rgba(227, 230, 4, 0.37)",
     "borderWidth": 0.01
   },
   {
@@ -23,7 +14,7 @@
     "xMax": 1738662000000,
     "yMin": 2811.855,
     "yMax": 2819.305,
-    "backgroundColor": "rgba(216, 223, 5, 0.37)",
+    "backgroundColor": "rgba(250, 202, 8, 0.37)",
     "borderWidth": 0.01
   },
   {
@@ -32,7 +23,7 @@
     "xMax": 1738673400000,
     "yMin": 2812.89,
     "yMax": 2821.88,
-    "backgroundColor": "rgba(231, 219, 42, 0.34)",
+    "backgroundColor": "rgba(243, 221, 42, 0.32)",
     "borderWidth": 0.01
   },
   {
@@ -41,7 +32,7 @@
     "xMax": 1738674000000,
     "yMin": 2821.46,
     "yMax": 2823.015,
-    "backgroundColor": "rgba(200, 238, 4, 0.34)",
+    "backgroundColor": "rgba(231, 245, 49, 0.39)",
     "borderWidth": 0.01
   },
   {
@@ -50,7 +41,7 @@
     "xMax": 1738679100000,
     "yMin": 2829.03,
     "yMax": 2837.245,
-    "backgroundColor": "rgba(216, 206, 10, 0.31)",
+    "backgroundColor": "rgba(251, 218, 17, 0.34)",
     "borderWidth": 0.01
   },
   {
@@ -59,16 +50,7 @@
     "xMax": 1738680000000,
     "yMin": 2836.05,
     "yMax": 2840.745,
-    "backgroundColor": "rgba(240, 225, 10, 0.38)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738680300000,
-    "xMax": 1738680600000,
-    "yMin": 2839.09,
-    "yMax": 2841.25,
-    "backgroundColor": "rgba(252, 225, 4, 0.37)",
+    "backgroundColor": "rgba(254, 244, 35, 0.38)",
     "borderWidth": 0.01
   },
   {
@@ -77,7 +59,7 @@
     "xMax": 1738681200000,
     "yMin": 2838.08,
     "yMax": 2841.345,
-    "backgroundColor": "rgba(201, 244, 6, 0.32)",
+    "backgroundColor": "rgba(207, 244, 28, 0.36)",
     "borderWidth": 0.01
   },
   {
@@ -86,7 +68,7 @@
     "xMax": 1738683000000,
     "yMin": 2840.205,
     "yMax": 2844.435,
-    "backgroundColor": "rgba(231, 208, 18, 0.39)",
+    "backgroundColor": "rgba(229, 230, 24, 0.30)",
     "borderWidth": 0.01
   },
   {
@@ -95,7 +77,7 @@
     "xMax": 1738715400000,
     "yMin": 2832.685,
     "yMax": 2845.46,
-    "backgroundColor": "rgba(231, 229, 8, 0.30)",
+    "backgroundColor": "rgba(225, 206, 14, 0.34)",
     "borderWidth": 0.01
   },
   {
@@ -104,7 +86,7 @@
     "xMax": 1738717200000,
     "yMin": 2843.01,
     "yMax": 2848.3,
-    "backgroundColor": "rgba(255, 219, 44, 0.32)",
+    "backgroundColor": "rgba(243, 215, 32, 0.39)",
     "borderWidth": 0.01
   },
   {
@@ -113,7 +95,7 @@
     "xMax": 1738721100000,
     "yMin": 2839.8,
     "yMax": 2849.015,
-    "backgroundColor": "rgba(248, 205, 47, 0.35)",
+    "backgroundColor": "rgba(222, 240, 10, 0.40)",
     "borderWidth": 0.01
   },
   {
@@ -122,7 +104,7 @@
     "xMax": 1738725600000,
     "yMin": 2847.92,
     "yMax": 2853.885,
-    "backgroundColor": "rgba(248, 248, 8, 0.36)",
+    "backgroundColor": "rgba(209, 251, 0, 0.39)",
     "borderWidth": 0.01
   },
   {
@@ -131,7 +113,7 @@
     "xMax": 1738728600000,
     "yMin": 2851.895,
     "yMax": 2854.48,
-    "backgroundColor": "rgba(245, 221, 27, 0.32)",
+    "backgroundColor": "rgba(246, 209, 47, 0.31)",
     "borderWidth": 0.01
   },
   {
@@ -140,7 +122,7 @@
     "xMax": 1738730400000,
     "yMin": 2853.52,
     "yMax": 2857.92,
-    "backgroundColor": "rgba(205, 225, 18, 0.40)",
+    "backgroundColor": "rgba(248, 248, 8, 0.34)",
     "borderWidth": 0.01
   },
   {
@@ -149,16 +131,7 @@
     "xMax": 1738734000000,
     "yMin": 2853.715,
     "yMax": 2858.19,
-    "backgroundColor": "rgba(200, 221, 6, 0.30)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738734300000,
-    "xMax": 1738734600000,
-    "yMin": 2858.045,
-    "yMax": 2860.355,
-    "backgroundColor": "rgba(219, 209, 33, 0.33)",
+    "backgroundColor": "rgba(211, 234, 1, 0.37)",
     "borderWidth": 0.01
   },
   {
@@ -167,7 +140,7 @@
     "xMax": 1738736400000,
     "yMin": 2857.27,
     "yMax": 2860.665,
-    "backgroundColor": "rgba(222, 214, 8, 0.36)",
+    "backgroundColor": "rgba(213, 235, 40, 0.32)",
     "borderWidth": 0.01
   },
   {
@@ -176,7 +149,7 @@
     "xMax": 1738742100000,
     "yMin": 2855.02,
     "yMax": 2861.905,
-    "backgroundColor": "rgba(202, 249, 6, 0.31)",
+    "backgroundColor": "rgba(243, 231, 34, 0.39)",
     "borderWidth": 0.01
   },
   {
@@ -185,16 +158,7 @@
     "xMax": 1738743300000,
     "yMin": 2863.755,
     "yMax": 2865.485,
-    "backgroundColor": "rgba(225, 201, 49, 0.33)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738743600000,
-    "xMax": 1738743900000,
-    "yMin": 2864.905,
-    "yMax": 2866.435,
-    "backgroundColor": "rgba(254, 206, 46, 0.31)",
+    "backgroundColor": "rgba(235, 242, 26, 0.32)",
     "borderWidth": 0.01
   },
   {
@@ -203,7 +167,7 @@
     "xMax": 1738744800000,
     "yMin": 2864.775,
     "yMax": 2866.675,
-    "backgroundColor": "rgba(250, 221, 41, 0.39)",
+    "backgroundColor": "rgba(222, 237, 27, 0.32)",
     "borderWidth": 0.01
   },
   {
@@ -212,7 +176,7 @@
     "xMax": 1738747200000,
     "yMin": 2865.505,
     "yMax": 2869.705,
-    "backgroundColor": "rgba(232, 237, 49, 0.34)",
+    "backgroundColor": "rgba(205, 244, 2, 0.38)",
     "borderWidth": 0.01
   },
   {
@@ -221,7 +185,7 @@
     "xMax": 1738748400000,
     "yMin": 2865.56,
     "yMax": 2870.48,
-    "backgroundColor": "rgba(208, 200, 4, 0.35)",
+    "backgroundColor": "rgba(231, 217, 13, 0.32)",
     "borderWidth": 0.01
   },
   {
@@ -230,7 +194,7 @@
     "xMax": 1738750800000,
     "yMin": 2869.3,
     "yMax": 2872.175,
-    "backgroundColor": "rgba(229, 250, 21, 0.39)",
+    "backgroundColor": "rgba(207, 210, 43, 0.33)",
     "borderWidth": 0.01
   },
   {
@@ -239,7 +203,7 @@
     "xMax": 1738769100000,
     "yMin": 2858.73,
     "yMax": 2877.105,
-    "backgroundColor": "rgba(234, 232, 45, 0.37)",
+    "backgroundColor": "rgba(204, 209, 9, 0.32)",
     "borderWidth": 0.01
   },
   {
@@ -248,7 +212,7 @@
     "xMax": 1738770000000,
     "yMin": 2873.885,
     "yMax": 2877.485,
-    "backgroundColor": "rgba(220, 245, 11, 0.37)",
+    "backgroundColor": "rgba(227, 222, 46, 0.31)",
     "borderWidth": 0.01
   },
   {
@@ -257,304 +221,16 @@
     "xMax": 1738941300000,
     "yMin": 2834.26,
     "yMax": 2882.42,
-    "backgroundColor": "rgba(240, 208, 12, 0.35)",
+    "backgroundColor": "rgba(211, 234, 28, 0.39)",
     "borderWidth": 0.01
   },
   {
     "type": "box",
-    "xMin": 1738942200000,
-    "xMax": 1738942500000,
+    "xMin": 1738942500000,
+    "xMax": 1738942800000,
     "yMin": 2882.605,
-    "yMax": 2886.12,
-    "backgroundColor": "rgba(226, 242, 22, 0.37)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738942800000,
-    "xMax": 1738943100000,
-    "yMin": 2883.64,
-    "yMax": 2886.215,
-    "backgroundColor": "rgba(205, 217, 29, 0.30)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738655400000,
-    "xMax": 1738656000000,
-    "yMin": 2811.93,
-    "yMax": 2813.89,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738656300000,
-    "xMax": 1738656600000,
-    "yMin": 2810.775,
-    "yMax": 2814.345,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738656900000,
-    "xMax": 1738658100000,
-    "yMin": 2814.25,
-    "yMax": 2819.305,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738658400000,
-    "xMax": 1738658700000,
-    "yMin": 2812.235,
-    "yMax": 2815.605,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738659000000,
-    "xMax": 1738665300000,
-    "yMin": 2812.985,
-    "yMax": 2821.88,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738665600000,
-    "xMax": 1738666200000,
-    "yMin": 2813.37,
-    "yMax": 2815.4,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738666500000,
-    "xMax": 1738667400000,
-    "yMin": 2813.97,
-    "yMax": 2816.035,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738668600000,
-    "xMax": 1738669500000,
-    "yMin": 2814.44,
-    "yMax": 2816.84,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738670100000,
-    "xMax": 1738670400000,
-    "yMin": 2814.86,
-    "yMax": 2816.275,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738672200000,
-    "xMax": 1738672800000,
-    "yMin": 2819.39,
-    "yMax": 2820.8,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738675500000,
-    "xMax": 1738677000000,
-    "yMin": 2831.275,
-    "yMax": 2837.245,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738677300000,
-    "xMax": 1738677600000,
-    "yMin": 2830.415,
-    "yMax": 2832.235,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738679100000,
-    "xMax": 1738684800000,
-    "yMin": 2833.315,
-    "yMax": 2845.46,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738685400000,
-    "xMax": 1738854300000,
-    "yMin": 2836.805,
-    "yMax": 2882.42,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738856400000,
-    "xMax": 1738861200000,
-    "yMin": 2848.335,
-    "yMax": 2854.77,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738862100000,
-    "xMax": 1738863300000,
-    "yMin": 2849.07,
-    "yMax": 2851.4,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738864800000,
-    "xMax": 1738865400000,
-    "yMin": 2851.28,
-    "yMax": 2852.745,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738867500000,
-    "xMax": 1738868400000,
-    "yMin": 2851.785,
-    "yMax": 2853.685,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738868700000,
-    "xMax": 1738870500000,
-    "yMin": 2850.645,
-    "yMax": 2852.675,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738871400000,
-    "xMax": 1738935000000,
-    "yMin": 2852.94,
-    "yMax": 2870.8,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738935300000,
-    "xMax": 1738936200000,
-    "yMin": 2860.52,
-    "yMax": 2868.98,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738936200000,
-    "xMax": 1738936800000,
-    "yMin": 2858.965,
-    "yMax": 2864.36,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738937100000,
-    "xMax": 1738948800000,
-    "yMin": 2856.225,
-    "yMax": 2886.81,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738948800000,
-    "xMax": 1738949400000,
-    "yMin": 2855.99,
-    "yMax": 2859.09,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738951200000,
-    "xMax": 1738956600000,
-    "yMin": 2859.725,
-    "yMax": 2865.195,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738957200000,
-    "xMax": 1738958400000,
-    "yMin": 2859.755,
-    "yMax": 2862.61,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738958400000,
-    "xMax": 1738959900000,
-    "yMin": 2859.64,
-    "yMax": 2863.885,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738960200000,
-    "xMax": 1738960800000,
-    "yMin": 2860.06,
-    "yMax": 2861.55,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738962300000,
-    "xMax": 1738964100000,
-    "yMin": 2861.1,
-    "yMax": 2863.425,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738964400000,
-    "xMax": 1738965300000,
-    "yMin": 2860.765,
-    "yMax": 2862.225,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
-    "borderWidth": 0.01
-  },
-  {
-    "type": "box",
-    "xMin": 1738965000000,
-    "xMax": 1738965300000,
-    "yMin": 2860.94,
-    "yMax": 2862.225,
-    "backgroundColor": "rgba(240, 96, 96, 0.2)",
+    "yMax": 2886.155,
+    "backgroundColor": "rgba(218, 247, 2, 0.34)",
     "borderWidth": 0.01
   }
 ]

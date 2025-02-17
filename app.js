@@ -47,42 +47,52 @@ async function findAscendingReactionsInSubset(candles) {
 
                         if(isRed){
 
-                            if(lastCandle.low < finalLowestCandle.low) finalLowestCandle = lastCandle;
+                            if( 
+                                candles.indexOf(lastCandle) - candles.indexOf(finalFirstCandle) == 1 && 
+                                getCandleColor(candles[candles.indexOf(finalFirstCandle)]) == "green" && 
+                                getCandleColor(candles[candles.indexOf(lastCandle)]) == "red" 
+                            ){
+                                finalFirstCandle = lastCandle
+                                i++
+                            }else{
 
-                            finalLastCandle = lastCandle
+                                if(lastCandle.low < finalLowestCandle.low) finalLowestCandle = lastCandle;
 
-                            const newEntry = [finalFirstCandle, finalLowestCandle, finalLastCandle];
-                            reactions.push(newEntry);
+                                finalLastCandle = lastCandle
 
-                            let middleCandles = candles.slice(
-                                candles.indexOf(finalFirstCandle) ,
-                                candles.indexOf(finalLastCandle) + 1
-                            );
-                            
-                            let d = {
-                                type : 'ascending',
-                                reactions : newEntry,
-                                candlesBetweenReactions : middleCandles,
-                                timeUTC : {
-                                    start : finalFirstCandle?.time,
-                                    finish : finalLastCandle?.time
-                                },
-                                timeToMS : {
-                                    start : new Date(finalFirstCandle?.time).getTime(),
-                                    finish : new Date(finalLastCandle?.time).getTime()
-                                },
-                                ceiling: finalFirstCandle.high,
-                                floor : finalLowestCandle.low
+                                const newEntry = [finalFirstCandle, finalLowestCandle, finalLastCandle];
+                                reactions.push(newEntry);
+
+                                let middleCandles = candles.slice(
+                                    candles.indexOf(finalFirstCandle) ,
+                                    candles.indexOf(finalLastCandle) + 1
+                                );
+                                
+                                let d = {
+                                    type : 'ascending',
+                                    reactions : newEntry,
+                                    candlesBetweenReactions : middleCandles,
+                                    timeUTC : {
+                                        start : finalFirstCandle?.time,
+                                        finish : finalLastCandle?.time
+                                    },
+                                    timeToMS : {
+                                        start : new Date(finalFirstCandle?.time).getTime(),
+                                        finish : new Date(finalLastCandle?.time).getTime()
+                                    },
+                                    ceiling: finalFirstCandle.high,
+                                    floor : finalLowestCandle.low
+                                }
+                                fullData.push(d)
+
+                                isRed = false
+                                redCandles = null
+                                finalFirstCandle = null
+                                finalLowestCandle = null
+                                k = null
+                                i++
                             }
-                            fullData.push(d)
-
-                            isRed = false
-                            redCandles = null
-                            finalFirstCandle = null
-                            finalLowestCandle = null
-                            k = null
-                            i++
-
+                            
                         }else{
                             finalFirstCandle = lastCandle //check marvi
                             finalLowestCandle = lastCandle
@@ -379,16 +389,58 @@ const calculateFibonachi = async ( finalFullData ) => {
 
 const behavioralAnalysisReactions = async ( finalFullData ) => {
 
+
+    const X = (candlesBetween, type, fibo) => {
+
+        let x = 0
+        let lowestCandle = null
+
+        const Y = async ({candle}) => {
+
+            if(getCandleColor(candle) == 'green'){
+
+                x++
+                
+                if(!lowestCandle || lowestCandle.low > candle.low ) {
+                    lowestCandle = candle
+                }
+                
+            }else{
+                lowestCandle = candle
+            }
+        }
+
+        for (let i = 0; i < candlesBetween.length; i++) {
+
+            if(type == "ascending"){
+
+                if(x == 0){
+                    if(candlesBetween[i].low < fibo) Y({candle : candlesBetween[i]})
+                }else {
+                    if(lowestCandle.low > candlesBetween[i].low) Y({candle : candlesBetween[i]})
+                }
+            }
+            
+        }
+
+        if( x == 0 ) x = 1
+        return x
+    }
+
+    
     for (let i = 0; i < finalFullData.length; i++) {
 
         let behavioral = {};
-        
+
         if(finalFullData[i]?.floor < finalFullData[i]?.fibonachiLevel['0.618']){ // barkhord
 
-            behavioral['scaleRange'] = true
+            let exitCandlestickScaleRangle = await X(finalFullData[i].candlesBetweenReactions, finalFullData[i].type, finalFullData[i]?.fibonachiLevel['0.618']);
+            behavioral['scaleRange'] = true;
+            behavioral['exitCandlestickScaleRangle'] = exitCandlestickScaleRangle;
         }else{
 
             behavioral['scaleRange'] = false
+            behavioral['outstandingOrder'] = true
         }
         finalFullData[i]["behavioral"] = behavioral
     }
@@ -461,22 +513,22 @@ app.get('/candles', async (req, res) => {
             rectanlges.push(obj)
         }       
 
-        let descendingReactions = await findDescendingReactions(bars)
-        fs.writeFileSync('descendingReactions.json', JSON.stringify(descendingReactions, null, 2), 'utf-8');
+        // let descendingReactions = await findDescendingReactions(bars)
+        // fs.writeFileSync('descendingReactions.json', JSON.stringify(descendingReactions, null, 2), 'utf-8');
 
-        for (let i = 0; i < descendingReactions.length; i++) {
-            let obj = {
-                type: "box",
-                xMin: new Date(descendingReactions[i][0].time).getTime(), // Start time (in milliseconds)
-                xMax: new Date(descendingReactions[i][2].time).getTime() , // End time (in milliseconds)
-                yMin: descendingReactions[i][0].low, // Minimum price
-                yMax: descendingReactions[i][1].high, // Maximum price
-                backgroundColor: 'rgba(240, 96, 96, 0.2)', // Semi-transparent green
-                // borderColor: "green"
-                borderWidth: 0.01,
-            }
-            rectanlges.push(obj)
-        }
+        // for (let i = 0; i < descendingReactions.length; i++) {
+        //     let obj = {
+        //         type: "box",
+        //         xMin: new Date(descendingReactions[i][0].time).getTime(), // Start time (in milliseconds)
+        //         xMax: new Date(descendingReactions[i][2].time).getTime() , // End time (in milliseconds)
+        //         yMin: descendingReactions[i][0].low, // Minimum price
+        //         yMax: descendingReactions[i][1].high, // Maximum price
+        //         backgroundColor: 'rgba(240, 96, 96, 0.2)', // Semi-transparent green
+        //         // borderColor: "green"
+        //         borderWidth: 0.01,
+        //     }
+        //     rectanlges.push(obj)
+        // }
         
         // fs.writeFileSync('bars.json', JSON.stringify(bars, null, 2), 'utf-8');
         // fs.writeFileSync('reactions.json', JSON.stringify(reactions, null, 2), 'utf-8');
