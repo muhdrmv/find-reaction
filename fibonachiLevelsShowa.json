@@ -164,11 +164,29 @@
   {
     "xMin": 1738683000000,
     "xMax": 1738715400000,
+    "yMin": 2842.21241,
+    "yMax": 2842.21241,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738683000000,
+    "xMax": 1738715400000,
     "yMin": 2841.32957,
     "yMax": 2841.32957,
     "borderColor": "orange",
     "borderWidth": 1,
     "typeof": "0.786"
+  },
+  {
+    "xMin": 1738715700000,
+    "xMax": 1738717200000,
+    "yMin": 2838.64993,
+    "yMax": 2838.64993,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
   },
   {
     "xMin": 1738715700000,
@@ -463,6 +481,24 @@
     "xMax": 1738942800000,
     "yMin": 2845.36553,
     "yMax": 2845.36553,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
+    "xMin": 1738942800000,
+    "xMax": 1738943100000,
+    "yMin": 2883.98402,
+    "yMax": 2883.98402,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738942800000,
+    "xMax": 1738943100000,
+    "yMin": 2883.37754,
+    "yMax": 2883.37754,
     "borderColor": "orange",
     "borderWidth": 1,
     "typeof": "0.786"

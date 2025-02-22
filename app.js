@@ -124,9 +124,13 @@ async function findAscendingReactionsInSubset(candles) {
                 if(firstCandle.high < lastCandle.high){
 
                     if( 
-                        candles.indexOf(lastCandle) - candles.indexOf(firstCandle) == 1 && 
+                        (candles.indexOf(lastCandle) - candles.indexOf(firstCandle) == 1 && 
                         getCandleColor(candles[candles.indexOf(firstCandle)]) == "red" && 
-                        getCandleColor(candles[candles.indexOf(lastCandle)]) == "green" 
+                        getCandleColor(candles[candles.indexOf(lastCandle)]) == "green" )
+                        ||
+                        (candles.indexOf(lastCandle) - candles.indexOf(firstCandle) == 1 && 
+                        getCandleColor(candles[candles.indexOf(firstCandle)]) == "red" && 
+                        getCandleColor(candles[candles.indexOf(lastCandle)]) == "red" )
                     ){
 
                         finalFirstCandle = firstCandle
@@ -227,7 +231,7 @@ const findReactionAfterViolation = async (subsets) => {
 
     let { reactions, fullData } = await findAscendingReactionsInSubset(subsets)
 
-    fullData.forEach(d => { finalFullData.push(d) });
+    // fullData.forEach(d => { finalFullData.push(d) });
     reactions.forEach(d => { finalAscendingReactions.push(d) });
 
     for (let i = 0; i < reactions.length; i++) {
@@ -246,6 +250,7 @@ const findReactionAfterViolation = async (subsets) => {
     
     fs.writeFileSync('AscendingReactions.json', JSON.stringify(finalAscendingReactions, null, 2), 'utf-8');
     fs.writeFileSync('rectanlges.json', JSON.stringify(rectanlges, null, 2), 'utf-8');
+    return { fullData }
 }
 
 async function findAscendingReactions(subsets) {
@@ -346,7 +351,7 @@ const deleteTheReactionAndDataWhenWeHaveViolationInReaction = async ( finalFullD
     finalAscendingReactions.splice(Nindex, 1)
     finalFullData.splice(Jindex, 1);
     rectanlges.splice(Iindex, 1);
-    fibonachiLevelShow.splice(Mindex, 1)
+    fibonachiLevelShow.splice(Mindex, 2)
     
     fs.writeFileSync('fibonachiLevelsShowa.json', JSON.stringify(fibonachiLevelShow, null, 2), 'utf-8');
 }
@@ -552,6 +557,8 @@ const calculateFibonachi = async ( finalFullData, lowestOfTheLeg ) => {
         fibonachiLevelShow.push(obj78)
     }
 
+    fs.writeFileSync('fibonachiLevelsShowa.json', JSON.stringify(fibonachiLevelShow, null, 2), 'utf-8');
+
     return fibonachiLevelShow
 }
 
@@ -612,6 +619,8 @@ const behavioralAnalysisReactions = async ( finalFullData ) => {
         }
         finalFullData[i]["behavioral"] = behavioral
     }
+
+    return finalFullData;
 }
 
 const findBeyondTheEngulfAscending = async ( previousReactionData, currentReactionData, reationThatHasViolationIndex ) => {
@@ -698,7 +707,6 @@ const findBeyondTheEngulfAscending = async ( previousReactionData, currentReacti
     }
     
     // it must be add fulldata when all things comlplete,
-    
     // find the violation engulf 
 
     let { continueCandleToFindReactions } = await findViolations( previousFloor, currentReactionData?.candlesBetweenReactions );
@@ -710,7 +718,41 @@ const findBeyondTheEngulfAscending = async ( previousReactionData, currentReacti
 
     // find the reactions
 
-    await findAscendingReactions(candlesAfterViolations)
+    let { fullData } =  await findReactionAfterViolation(candlesAfterViolations)
+    await calculateFibonachi(fullData, lowestCandle?.low); //  bars[0].low = lowst of the leg
+
+    await behavioralAnalysisReactions(fullData)
+
+    await specifyEngulf(fullData)
+
+    for (let i = 0; i < fullData.length; i++) {
+
+        if(fullData[i]?.behavioralStatus){
+
+            let s = fullData[i].timeToMS.start
+            let f = fullData[i].timeToMS.finish
+
+            let obj = {
+                xValue: f - ((f - s)/2),
+                yValue: fullData[i].type == "ascending" ? fullData[i].floor - 1 : fullData[i].ceiling + 1,
+                content: fullData[i]?.behavioralStatus,
+                font: {
+                  size: 12,
+                  weight: "bolder",
+                },
+                color: "black",
+                textAlign: "center"
+            }
+
+            behavioralStatus.push(obj)
+        }
+    } 
+
+    // // specify engulf
+    // await specifyEngulf(finalFullData)
+    console.log("fullData",fullData);
+    fs.writeFileSync('behavioralStatus.json', JSON.stringify(behavioralStatus, null, 2), 'utf-8');
+    
 }
 
 const specifyEngulf = async ( finalFullData ) => {
@@ -727,7 +769,7 @@ const specifyEngulf = async ( finalFullData ) => {
             // 2 model
 
             // 1: 
-            if(!previousReactionData?.behavioral?.scaleRange && currentReactionData.floor > engluf.floor ){ // اگر واکنش قبلی وارد منطقه مقیاسی نشده بود و همچنین از واکنش دارای رفتار اینگالف هم پایین تر نرفته بود ولی زیر واکنش قبلی رو زده بود میشه (اینگالف ریست )
+            if(!previousReactionData?.behavioral?.scaleRange && currentReactionData?.floor > engluf?.floor ){ // اگر واکنش قبلی وارد منطقه مقیاسی نشده بود و همچنین از واکنش دارای رفتار اینگالف هم پایین تر نرفته بود ولی زیر واکنش قبلی رو زده بود میشه (اینگالف ریست )
 
                 finalFullData[i]["behavioralStatus"] = "er"
                 engluf = finalFullData[i]
@@ -741,7 +783,7 @@ const specifyEngulf = async ( finalFullData ) => {
                 // await calculateFibonachi(finalFullData)
     
                 // do big things
-                return
+                return;
 
                 // outstanding order
 
@@ -842,13 +884,12 @@ app.get('/candles', async (req, res) => {
 
         // start calculate fibonachi and find levels
         let fibonachiLevelShow = await calculateFibonachi(finalFullData, bars[0].low); //  bars[0].low = lowst of the leg
-        fs.writeFileSync('fibonachiLevelsShowa.json', JSON.stringify(fibonachiLevelShow, null, 2), 'utf-8');
 
         // Behavioral Analysis of Reactions
         await behavioralAnalysisReactions(finalFullData)
 
         // // specify engulf
-        await specifyEngulf(finalFullData)
+        // await specifyEngulf(finalFullData)
 
         for (let i = 0; i < finalFullData.length; i++) {
 
