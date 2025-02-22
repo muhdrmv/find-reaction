@@ -108,10 +108,28 @@
     "typeof": "0.786"
   },
   {
+    "xMin": 1738680000000,
+    "xMax": 1738680300000,
+    "yMin": 2837.9867400000003,
+    "yMax": 2837.9867400000003,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.618"
+  },
+  {
+    "xMin": 1738680000000,
+    "xMax": 1738680300000,
+    "yMin": 2837.1349800000003,
+    "yMax": 2837.1349800000003,
+    "borderColor": "orange",
+    "borderWidth": 1,
+    "typeof": "0.786"
+  },
+  {
     "xMin": 1738680600000,
     "xMax": 1738681200000,
-    "yMin": 2838.07269,
-    "yMax": 2838.07269,
+    "yMin": 2839.95141,
+    "yMax": 2839.95141,
     "borderColor": "orange",
     "borderWidth": 1,
     "typeof": "0.618"
@@ -119,8 +137,8 @@
   {
     "xMin": 1738680600000,
     "xMax": 1738681200000,
-    "yMin": 2837.18313,
-    "yMax": 2837.18313,
+    "yMin": 2839.5725700000003,
+    "yMax": 2839.5725700000003,
     "borderColor": "orange",
     "borderWidth": 1,
     "typeof": "0.786"
@@ -146,29 +164,11 @@
   {
     "xMin": 1738683000000,
     "xMax": 1738715400000,
-    "yMin": 2842.21241,
-    "yMax": 2842.21241,
-    "borderColor": "orange",
-    "borderWidth": 1,
-    "typeof": "0.618"
-  },
-  {
-    "xMin": 1738683000000,
-    "xMax": 1738715400000,
     "yMin": 2841.32957,
     "yMax": 2841.32957,
     "borderColor": "orange",
     "borderWidth": 1,
     "typeof": "0.786"
-  },
-  {
-    "xMin": 1738715700000,
-    "xMax": 1738717200000,
-    "yMin": 2838.64993,
-    "yMax": 2838.64993,
-    "borderColor": "orange",
-    "borderWidth": 1,
-    "typeof": "0.618"
   },
   {
     "xMin": 1738715700000,
